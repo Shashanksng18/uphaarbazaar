@@ -1,0 +1,71 @@
+.product-desc .heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0 1.6rem;
+}
+.product-desc .heading h4{
+    cursor: pointer;
+}
+.aside-specification{
+    margin: 2rem;
+}
+.aside-specification >div >h5{
+    color: #2B3445;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-bottom: 0.8rem;
+}
+.aside-specification > div >p{
+    font-size: 14px;
+    color: rgb(75, 86, 107);
+}
+.aside-reviews,.aside-specification{
+    margin: 1.6rem;
+}
+.aside-reviews >div{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-direction: column;
+}
+.aside-reviews span{
+    margin: 0 0.5rem;
+}
+.aside-reviews > div h5{
+    text-transform: capitalize;
+    color:  #2B3445;
+    font-size: 1.2rem;
+}
+.aside-reviews .comment{
+    color: rgb(75, 86, 107);
+}
+.rating{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.year{
+    color: #2B3445;
+    font-size: 0.9rem;
+}
+.aside-reviews .review{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+
+}
+.aside-reviews .review picture{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.aside-reviews .review picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

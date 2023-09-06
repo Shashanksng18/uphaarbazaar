@@ -1,0 +1,86 @@
+.top-header{
+    background-color: #2B3445;
+}
+.main-navigation{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+    margin: 0 0.7rem;
+    position: relative;
+}
+.main-navigation .left-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 0.6rem;
+}
+.main-navigation .right-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    list-style: none;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    transition: all 9s linear;
+}
+.main-navigation .right-navigation svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .main-navigation .left-navigation a{
+    color: #FFF;
+    text-decoration: none;
+    background-color: #D23F57;
+    padding: 0.2rem 1.4rem;
+    border-radius: 70px;
+} */
+.main-navigation .left-navigation .hot{
+    font-weight: bold;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #D23F57;
+    padding: 0.15rem 1rem;
+    border-radius: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.main-navigation .left-navigation .shipping{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+.main-navigation .left-navigation li{
+    margin-bottom: 0;
+}
+.main-navigation .right-navigation svg{
+    color: #FFF;
+}
+.main-navigation .plus, .minus{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+}
+ul li{
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 450px){
+    .main-navigation{
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 1rem;
+       flex-direction: column;
+    }
+    .main-navigation .plus{
+        display: block;
+    }
+}

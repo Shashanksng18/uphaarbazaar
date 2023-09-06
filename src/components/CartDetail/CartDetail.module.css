@@ -1,0 +1,72 @@
+.cart-inner-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 2rem 0;
+}
+ .cart-inner-detail .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.controls .cbtn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.cart-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart-info picture{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.product-desc .title{
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-bottom: 0.6rem;
+}
+.product-desc .quantity{
+    font-size: 12px;
+    color: #444;
+    margin-bottom: 0.6rem;
+}
+.product-desc .totalprice{
+    color: rgb(210, 63, 87);
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.total h2{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.total span{
+    color: rgb(210, 63, 87);
+    font-weight: bold;
+    font-size: 20px;
+}

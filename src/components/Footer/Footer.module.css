@@ -1,0 +1,104 @@
+
+.footer{
+    display: flex;
+    background-color: #222935;
+}
+.footer-wrapper{
+    padding: 4rem 1.6rem;
+}
+.promotion picture{
+    width: 100px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+.promotion picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    mix-blend-mode: #FFF;    
+}
+.promotion p{
+    color: #AEB4BE;;
+}
+.footer .footer-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.footer .footer-wrapper .customer-care, .contact-us, .about-us{
+    width: 20%;
+}
+.footer .footer-wrapper .promotion{
+    width: 33%;
+    list-style: none;
+}
+.about-us ul{
+    list-style: none;
+}
+.about-us  h4, .customer-care h4, .contact-us h4{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-us ul li a{
+    color: #AEB4BE;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.customer-care ul{
+    list-style: none;
+}
+.about-us .customer-care , .contact-us li{
+    margin-bottom: 0.6rem;
+}
+.customer-care ul li a{
+    color: #AEB4BE;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.contact-us ul li a{
+    color: #AEB4BE;
+    text-decoration: none;
+    word-break: break-all;
+}
+.contact-us address{
+    color: #AEB4BE;
+}
+.contact-us ul{
+    list-style: none;
+}
+.contact-us .social-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+@media only screen and (max-width: 600px){
+    .footer-wrapper{
+        flex-direction: column;
+    }
+    .footer .footer-wrapper .promotion{
+        width: 100%;
+        list-style: none;
+    }
+    .footer .footer-wrapper .about-us , .contact-us{
+        width: 100%;
+    }
+    .footer .footer-wrapper .customer-care{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .footer .footer-wrapper{
+        gap: 2rem;
+    }
+}
