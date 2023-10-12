@@ -51,7 +51,6 @@ const Products = () => {
     }
 
     const addToCartHandler = (product) => {
-      console.log(product)
        dispatch(cartAction.addToCart(product))
     }
 
