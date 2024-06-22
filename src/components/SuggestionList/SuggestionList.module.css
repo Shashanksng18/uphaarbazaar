@@ -1,0 +1,27 @@
+.suggestion-list {
+    position: absolute;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+    width: 90%;
+    margin-left: 1rem;
+    z-index: 9999;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:0 0 0;
+    flex-wrap: wrap;
+    gap: 1rem 2.5rem;
+    padding: 1rem 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.suggestion-list li {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 450px) {
+    .suggestion-list {
+        flex: 0 0 1;;
+    }
+}

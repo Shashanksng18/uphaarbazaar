@@ -59,6 +59,7 @@
     font-size: 0.8rem;
     color: rgb(43, 52, 69);
     background-color: #FFF;
+    z-index: 99;
 }
 .bottom-nav .links form .category svg{
     margin-left: 1.4rem;
@@ -103,6 +104,9 @@
     font-weight: bold;
     font-size: 16px;
 }
+.search-form {
+    position: relative;
+}
 @media only screen and (max-width: 900px){
     .bottom-nav form input{
         width: 100%
@@ -115,23 +119,28 @@
     }
     .bottom-nav .sform{
         position: absolute;
-        padding-top: 10rem;
+        /* padding-top: 10rem; */
         transition: all 0.5s ease-in-out;
-        align-items: flex-start;
-        justify-content: flex-start;
+        /* align-items: start;
+        justify-content: flex-start; */
         background-color: #FFF;
-        height: 100vh;
+        height: 0;
+        /* height: 100vh; */
         width: 100%;
-        z-index: 999;
         left: 0;
+        background-color: red;
+        bottom: 3px;
+        /* z-index: 999;
+        left: 0; */
     }
     .bottom-nav .form{
-        top: -73px;
+        /* top: -73px;
         display: inline-flex;
         transition: all 0.5s linear;
-        height: 100vh;
+        height: 100vh; */
+        transition: all 5s linear;
     }
-    .bottom-nav .formvisible{
+    /* .bottom-nav .formvisible{
         position: absolute;
         top: -4200px;
         left: 0;
@@ -139,7 +148,7 @@
         transition: all 0.5s linear;
         height: 0;
     }
-   
+    */
     .close{
         position: absolute;
         right: 20px;

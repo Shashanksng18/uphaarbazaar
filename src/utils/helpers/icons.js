@@ -7,15 +7,20 @@ import {VscWatch} from "react-icons/vsc";
 import {TiCamera} from "react-icons/ti"
 import {CiRead} from "react-icons/ci";
 import {FaTshirt} from "react-icons/fa";
+import { FaBorderAll } from "react-icons/fa";
 
 const icons = [
+        {
+            icon: <FaBorderAll/>,
+            title: "all",
+        },
         {
             icon: <FaTshirt size={18}/>,
             title: "men",
         },
         {
             icon: <HiPhotograph size={18}/>,
-            title: "Photos",
+            title: "photos",
         },
         {
             icon: <GiClothesline size={18}/>,
@@ -47,7 +52,7 @@ const icons = [
         },
         {
             icon: <GiDrill size={18}/>,
-            title: "hardware",
+            title: "kitchen",
         },
         {
             icon: <CiRead size={18}/>,

@@ -17,14 +17,14 @@ const Products = () => {
     
     const navigate = useNavigate();
     const [uphaarProducts, setUphaarProducts] = useState([]);
-    const {currentPage, getProductId, getProductDetail, handleDetailOverlay} = useGlobalContext();
+    const {currentPage, getProductId, getProductDetail, handleDetailOverlay, setGetProductSize, currentCategory, flushProduct, setFlushProduct} = useGlobalContext();
     const [isLoading, setIsLoading] = useState(true);
 
 
     useEffect(() => {
       const fetchProducts = async () => {
         const response = await fetch(
-          `https://jsonplaceholder.typicode.com/todos?_page=${currentPage}&_limit=28`
+          `https://jsonplaceholder.typicode.com/todos?_page=${currentPage}&_limit=200`
         );
         if(!response.ok){
           throw new Error("Cannot fetch the product check your connection...")
@@ -39,11 +39,20 @@ const Products = () => {
             }
           }
         }
+
+        // console.log("PP", comp)
+      
+       companyProducts = currentCategory !== 'all' ? companyProducts.filter((product) => product.category?.includes(currentCategory === 'baby products' ? currentCategory.split(' ')[0] : currentCategory)) : companyProducts;
+       setGetProductSize(companyProducts.length);
        setUphaarProducts(companyProducts);
        setIsLoading(false);
       }
-      const data =  fetchProducts();
-    }, [currentPage]);
+
+      setTimeout(() => {
+        setFlushProduct(false);
+      },1000)
+      fetchProducts();
+    }, [currentPage, currentCategory]);
 
     const getProductIdHandler = (id) => {
         getProductId(id)
@@ -51,7 +60,6 @@ const Products = () => {
     }
 
     const addToCartHandler = (product) => {
-      console.log(product)
        dispatch(cartAction.addToCart(product))
     }
 
@@ -63,7 +71,13 @@ const Products = () => {
     // }
     return(
         <div className={style['product-main']}>
+           {
+             flushProduct &&  <div className={style['spinner-area']}>
+             <span className={style.loader}></span>
+           </div>
+           }
            {isLoading &&  <CardSkeleton cards={200}/>}
+           {uphaarProducts.length === 0 && <p className={style['no-product']}>OOps.... No Product Found for this Category</p>}
            {!isLoading && <>  {uphaarProducts.map((product, index) => (
                  <Card className={style['individual-card']} key={index+2}>
                   <picture onClick={()=>getProductIdHandler(product.pId)}>

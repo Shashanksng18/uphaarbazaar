@@ -83,10 +83,10 @@ const Footer = () => {
              </address>
                 </li>
                 <li>
-                <a href="mailto: shashanksng18@gmail.com">shashanksng18@gmail.com</a>
+                <a href="mailto: shashankbhandaricn18@gmail.com" style={{fontSize: '14px'}}>Shashankbhandaricn18@gmail.com</a>
                 </li>
                 <li>
-                  <a href="tel: +91 94118266644">+91 9411826542</a>
+                  <a href="tel: +91 94118266644"  style={{fontSize: '12px'}}>+91 9411*****2</a>
                 </li>
             </ul>
             <ul className={style['social-links']}>
