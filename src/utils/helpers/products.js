@@ -228,15 +228,16 @@ const products = [
       "image": one1,
       "title": "capgnold WX-R",
       "price": 8.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "pId": 2,
       "image": two1,
       "title": "hero 2017",
       "price": 175.00,
-      "star": 3
-      
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -244,8 +245,8 @@ const products = [
       "image": three1,
       "title": "spec 2015",
       "price": 114.00,
-      "star": 1
-      
+      "star": 1,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -253,7 +254,8 @@ const products = [
       "image": four1,
       "title": "kawasaki 2018",
       "price": 249.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -261,7 +263,8 @@ const products = [
       "image": five1,
       "title":"Mustang WTZ",
       "price": 139.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -269,7 +272,8 @@ const products = [
       "image": six1,
       "title": "honda 2019",
       "price": 161.00,
-      "star": 1
+      "star": 1,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -277,7 +281,8 @@ const products = [
       "image": seven1,
       "title": "ninja kawasaki 2016",
       "price": 90.00,
-      "star": 2
+      "star": 2,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -285,7 +290,8 @@ const products = [
       "image": eight1,
       "title": "cozima look",
       "price": 131.00,
-      "star": 1
+      "star": 1,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -293,7 +299,8 @@ const products = [
       "image": nine1,
       "title": "hero honda 2017",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -301,7 +308,8 @@ const products = [
       "image": ten1,
       "title": "mintan krt",
       "price": 206.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -309,7 +317,8 @@ const products = [
       "image": one2,
       "title": "kawasaki 2020",
       "price": 142.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -317,7 +326,8 @@ const products = [
       "image": two2,
       "title": "spec 2020",
       "price": 192.00,
-      "star": 0
+      "star": 0,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -325,7 +335,8 @@ const products = [
       "image": three2,
       "title": "royal enfield 2010",
       "price": 35.00,
-      "star": 2
+      "star": 2,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -333,7 +344,8 @@ const products = [
       "image": four2,
       "title": "royal enfield 2011",
       "price": 65.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -341,7 +353,8 @@ const products = [
       "image": five2,
       "title": "prime xtz",
       "price": 99.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -349,7 +362,8 @@ const products = [
       "image": six2,
       "title": "royal enfield 2012",
       "price": 71.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -357,7 +371,8 @@ const products = [
       "image": seven2,
       "title": "spec alpha",
       "price": 16.00,
-      "star": 1
+      "star": 1,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -365,7 +380,8 @@ const products = [
       "image": eight2,
       "title": "ninja kawasaki 2019",
       "price": 132.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -373,7 +389,8 @@ const products = [
       "image": nine2,
       "title": "fuji trx",
       "price": 211.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 1,
@@ -381,7 +398,8 @@ const products = [
       "image": ten2,
       "title": "CBR 2022",
       "price": 245.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 2,
@@ -389,7 +407,8 @@ const products = [
       "image": one3,
       "title": "tarz t3",
       "price": 191.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 2,
@@ -397,7 +416,8 @@ const products = [
       "image": two3,
       "title": "yamaha r15 black",
       "price": 223.00,
-      "star": 2
+      "star": 2,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 2,
@@ -405,7 +425,8 @@ const products = [
       "image": three3,
       "title": "yamaha r15 blue",
       "price": 218.00,
-      "star": 0
+      "star": 0,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 2,
@@ -414,6 +435,7 @@ const products = [
       "title": "xevel 2020",
       "price": 23.00,
       "star": 0,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 2,
@@ -421,7 +443,8 @@ const products = [
       "image": five3,
       "title": "jackson tb1",
       "price": 206.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "automobile"],
     },
     {
       "userId": 2,
@@ -429,7 +452,8 @@ const products = [
       "image": six3,
       "title": "siri 2020",
       "price": 127.00,
-      "star": 1
+      "star": 1,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -437,7 +461,8 @@ const products = [
       "image": seven3,
       "title": "cosor1",
       "price": 55.00,
-      "star": 3
+      "star": 3,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -445,7 +470,8 @@ const products = [
       "image": eight3,
       "title": "ranasonic charger",
       "price": 114.00,
-      "star": 0
+      "star": 0,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -453,7 +479,8 @@ const products = [
       "image": nine3,
       "title": "lumix DSIR",
       "price": 170.00,
-      "star": 0
+      "star": 0,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -461,7 +488,8 @@ const products = [
       "image": ten3,
       "title": "atech cam 1080p",
       "price": 179.00,
-      "star": 2
+      "star": 2,
+      "category": ["electronics", "photos"]
     },
     {
       "userId": 2,
@@ -469,7 +497,8 @@ const products = [
       "image": one4,
       "title": "tony a9",
       "price": 88.00,
-      "star": 1
+      "star": 1,
+      "category": ["electronics", "photos"]
     },
     {
       "userId": 2,
@@ -477,7 +506,8 @@ const products = [
       "image": two4,
       "title": "beat sw3",
       "price": 64.00,
-      "star": 1
+      "star": 1,
+      "category": ["electronics", "photos"]
     },
     {
       "userId": 2,
@@ -485,7 +515,8 @@ const products = [
       "image": three4,
       "title": "benx 2020",
       "price": 153.00,
-      "star": 0
+      "star": 0,
+      "category": ["accessories"]
     },
     {
       "userId": 2,
@@ -493,7 +524,8 @@ const products = [
       "image": four4,
       "title": "tony tv 1080p",
       "price": 60.00,
-      "star": 0
+      "star": 0,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -501,7 +533,8 @@ const products = [
       "image": five4,
       "title": "tony PS4",
       "price": 96.00,
-      "star": 3
+      "star": 3,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -509,7 +542,8 @@ const products = [
       "image": six4,
       "title": "setgearr 2020",
       "price": 164.00,
-      "star": 0
+      "star": 0,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -517,7 +551,8 @@ const products = [
       "image": seven4,
       "title": "tony BGB",
       "price": 6.00,
-      "star": 2
+      "star": 2,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -525,7 +560,8 @@ const products = [
       "image": eight4,
       "title": "RG products",
       "price": 19.00,
-      "star": 5
+      "star": 5,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -533,7 +569,8 @@ const products = [
       "image": nine4,
       "title": "panasonic 2019",
       "price": 207.00,
-      "star": 4
+      "star": 4,
+      "category": ["electronics"]
     },
     {
       "userId": 2,
@@ -541,7 +578,8 @@ const products = [
       "image": ten4,
       "title": "pune HD",
       "price": 167.00,
-      "star": 3
+      "star": 3,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -549,7 +587,8 @@ const products = [
       "image": one5,
       "title": "vision blender",
       "price": 102.00,
-      "star": 4
+      "star": 4,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -557,7 +596,8 @@ const products = [
       "image": two5,
       "title": "vision microwave oven",
       "price": 62.00,
-      "star": 3
+      "star": 3,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -565,7 +605,8 @@ const products = [
       "image": three5,
       "title": "RG washing machine",
       "price": 141.00,
-      "star": 4
+      "star": 4,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -573,7 +614,8 @@ const products = [
       "image": four5,
       "title": "Tascuigo Ariadry Light",
       "price": 118.00,
-      "star": 2
+      "star": 2,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -581,7 +623,8 @@ const products = [
       "image": five5,
       "title": "Amazon Package",
       "price": 196,
-      "completed": false
+      "completed": false,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -589,7 +632,8 @@ const products = [
       "image": six5,
       "title": "Vision products",
       "price": 144.00,
-      "star": 0
+      "star": 0,
+      "category":[ "electronics"]
     },
     {
       "userId": 3,
@@ -597,7 +641,8 @@ const products = [
       "image": seven5,
       "title": "RG Offers",
       "price": 229.00,
-      "star": 0
+      "star": 0,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -605,7 +650,8 @@ const products = [
       "image": eight5,
       "title": "Tell oDrone",
       "price": 84.00,
-      "star": 0
+      "star": 0,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -613,7 +659,8 @@ const products = [
       "image": nine5,
       "title": "Vivo Mobiles",
       "price": 96,
-      "star": 0
+      "star": 0,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -621,7 +668,8 @@ const products = [
       "image": ten5,
       "title": "Tello Super Drones",
       "price": 16,
-      "star": 0
+      "star": 0,
+      "category":[ "electronics"]
     },
     {
       "userId": 3,
@@ -629,7 +677,8 @@ const products = [
       "image": one6,
       "title": "Tello Super Drones Pro",
       "price": 244,
-      "completed": false
+      "completed": false,
+      "category": ["electronics"]
     },
     {
       "userId": 3,
@@ -637,7 +686,8 @@ const products = [
       "image": two6,
       "title": "Pink Wireless Earphones",
       "price": 229,
-      "completed": false
+      "completed": false,
+      "category": ["electronics", "accessories"]
     },
     {
       "userId": 3,
@@ -645,7 +695,8 @@ const products = [
       "image": three6,
       "title": "Rangs Mobile",
       "price": 143,
-      "completed": false
+      "completed": false,
+      "category": ["electronics", "accessories"]
     },
     {
       "userId": 3,
@@ -653,7 +704,8 @@ const products = [
       "image": four6,
       "title": "Mapple Earphones",
       "price": 94,
-      "completed": true
+      "completed": true,
+      "category": ["electronics", "accessories"]
     },
     {
       "userId": 3,
@@ -661,7 +713,8 @@ const products = [
       "image": five6,
       "title": "Lokia android one",
       "price": 72,
-      "completed": true
+      "completed": true,
+      "category": ["electronics", "accessories"]
     },
     {
       "userId": 3,
@@ -669,21 +722,24 @@ const products = [
       "image": six6,
       "title": "Xymphone lights",
       "price": 196,
-      "completed": true
+      "completed": true,
+      "category": ["electronics", "accessories"]
     },
     {
       "userId": 3,
       "pId": 57,
       "image": seven6,
       "title": "Lphone 7",
-      "completed": false
+      "completed": false,
+      "category": ["electronics", "photos"]
     },
     {
       "userId": 3,
       "pId": 58,
       "image": eight6,
       "title": "Ceats wireless earphones",
-      "completed": false
+      "completed": false,
+      "category": ["accessories"]
     },
     {
       "userId": 3,
@@ -691,6 +747,7 @@ const products = [
       "image": nine6,
       "title": "HPC 2018",
       "price": 99,
+      "category": ["accessories"]
     },
     {
       "userId": 3,
@@ -698,7 +755,8 @@ const products = [
       "image": ten6,
       "title": "Xeats bluetooth earphones",
       "price": 200,
-      "star": 0
+      "star": 0,
+      "category": ["accessories"]
     },
     {
       "userId": 4,
@@ -706,7 +764,8 @@ const products = [
       "image": one7,
       "title": "sbs Wireless Earphones",
       "price": 7,
-      "star": 0
+      "star": 0,
+      "category": ["accessories"]
     },
     {
       "userId": 4,
@@ -714,7 +773,8 @@ const products = [
       "image": two7,
       "title": "Silver Cap",
       "price": 130,
-      "star": 0
+      "star": 0,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -722,7 +782,8 @@ const products = [
       "image": three7,
       "title": "Funky Silver Cap",
       "price": 148,
-      "star": 0
+      "star": 0,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -730,7 +791,8 @@ const products = [
       "image": four7,
       "title": "Brown Cap",
       "price": 223.00,
-      "star": 0
+      "star": 0,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -738,7 +800,8 @@ const products = [
       "image": five7,
       "title": "Orange Cap",
       "price": 182,
-      "star": 0
+      "star": 0,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -746,7 +809,8 @@ const products = [
       "image": six7,
       "title": "Vegas Blue Cap",
       "price": 229.00,
-      "star": 0
+      "star": 0,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -754,7 +818,8 @@ const products = [
       "image": seven7,
       "title": "Say Ban Green",
       "price": 229.00,
-      "star": 0
+      "star": 0,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -762,7 +827,8 @@ const products = [
       "image": eight7,
       "title": "Police Gray Eyeglasses",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -770,7 +836,8 @@ const products = [
       "image": nine7,
       "title": "Say Ban Matt Black",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -778,7 +845,8 @@ const products = [
       "image": ten7,
       "title": "Say Ban Black",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -786,7 +854,8 @@ const products = [
       "image": one8,
       "title": "Say Ban Ocean",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -794,7 +863,8 @@ const products = [
       "image": two8,
       "title": "Sun glasses Collection",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -802,7 +872,8 @@ const products = [
       "image": three8,
       "title": "Ziaomi mi band2",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -810,7 +881,8 @@ const products = [
       "image": four8,
       "title": "Kossil Watch Brown",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -818,7 +890,8 @@ const products = [
       "image": five8,
       "title": "MVMTM Watch Black",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -826,7 +899,8 @@ const products = [
       "image": six8,
       "title": "Xarioho Watch Black",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -834,7 +908,8 @@ const products = [
       "image": seven8,
       "title": "Skmei Watch Black",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -842,7 +917,8 @@ const products = [
       "image": eight8,
       "title": "Digital Wrist Watch",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
@@ -850,15 +926,17 @@ const products = [
       "image": nine8,
       "title": "Dragon Red Wrist Watch",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 4,
       "pId": 80,
       "image": ten8,
-      "title": "SIlver High Neck Sweater",
+      "title": "Silver High Neck Sweater",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men","accessories", "clothes", "sport"]
     },
     {
       "userId": 5,
@@ -866,7 +944,8 @@ const products = [
       "image": one9,
       "title": "Blue Blossom Frock",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes", "baby"]
     },
     {
       "userId": 5,
@@ -874,7 +953,8 @@ const products = [
       "image": two9,
       "title": "NBL Hoop Hoodie",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes", "baby"]
     },
     {
       "userId": 5,
@@ -882,7 +962,8 @@ const products = [
       "image": three9,
       "title": "Denim Blue Jeans",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes", "baby"]
     },
     {
       "userId": 5,
@@ -890,7 +971,8 @@ const products = [
       "image": four9,
       "title": "Brown Check Frock",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes", "baby"]
     },
     {
       "userId": 5,
@@ -898,7 +980,8 @@ const products = [
       "image": five9,
       "title": "Fashion Collection for Kids",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes", "baby"]
     },
     {
       "userId": 5,
@@ -906,7 +989,8 @@ const products = [
       "image": six9,
       "title": "Denim Classic Blue Jeans",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes", "baby"]
     },
     {
       "userId": 5,
@@ -914,7 +998,8 @@ const products = [
       "image": seven9,
       "title": "Royal Black Suit-Pant",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "clothes"]
     },
     {
       "userId": 5,
@@ -922,7 +1007,8 @@ const products = [
       "image": eight9,
       "title": "Denim Gabardine Collection",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "clothes"]
     },
     {
       "userId": 5,
@@ -930,7 +1016,8 @@ const products = [
       "image": nine9,
       "title": "Lands Jacket",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "clothes"]
     },
     {
       "userId": 5,
@@ -938,15 +1025,17 @@ const products = [
       "image": ten9,
       "title": "Striped Casual Shirt",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "clothes"]
     },
     {
       "userId": 5,
       "pId": 91,
       "image": one10,
-      "title": "Pink Kids Wear      ",
+      "title": "Pink Kids Wear",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["baby", "clothes"]
     },
     {
       "userId": 5,
@@ -954,7 +1043,8 @@ const products = [
       "image": two10,
       "title": "High Waisted Gabardine",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 5,
@@ -962,7 +1052,8 @@ const products = [
       "image": three10,
       "title": "Blue Trousers",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 5,
@@ -970,13 +1061,14 @@ const products = [
       "image": four10,
       "title": "Geen Ski Jacket",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 5,
       "pId": 95,
       "image": five10,
-      "title": "Double Wool Overcoat      ",
+      "title": "Double Wool Overcoat",
       "price": 229.00,
       "star": 3
     },
@@ -986,7 +1078,8 @@ const products = [
       "image": six10,
       "title": "Strech Cargo Pants",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 5,
@@ -994,7 +1087,8 @@ const products = [
       "image": seven10,
       "title": "Wool Overcoat Women",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 5,
@@ -1002,31 +1096,35 @@ const products = [
       "image": eight10,
       "title": "Black&White Sweater",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 5,
       "pId": 99,
       "image": nine10,
-      "title": "Gray Overcoat Women      ",
+      "title": "Gray Overcoat Women",
       "price": 229.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 5,
       "pId": 100,
       "image": ten10,
-      "title": "Yellow Casual Sweater      ",
+      "title": "Yellow Casual Sweater",
       "price": 20.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 6,
       "pId": 101,
       "image": one11,
-      "title": "Casual Gray Pants      ",
+      "title": "Casual Gray Pants",
       "price": 191.00,
-      "star": 4
+      "star": 4,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 6,
@@ -1034,7 +1132,8 @@ const products = [
       "image": two11,
       "title": "Adidas Winter Jacket",
       "price": 169.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 6,
@@ -1042,7 +1141,8 @@ const products = [
       "image": three11,
       "title": "Olive Casual Sweater",
       "price": 87.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "clothes"]
     },
     {
       "userId": 6,
@@ -1050,7 +1150,8 @@ const products = [
       "image": four11,
       "title": "Kids Rainbow Sweater",
       "price": 227.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "clothes", "baby"]
     },
     {
       "userId": 6,
@@ -1058,7 +1159,8 @@ const products = [
       "image": five11,
       "title": "Heavy 22kt Gold Necklace Set",
       "price": 128.00,
-      "star": 4
+      "star": 4,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1066,7 +1168,8 @@ const products = [
       "image": six11,
       "title": "Black Metal Ring",
       "price": 141.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1074,7 +1177,8 @@ const products = [
       "image": seven11,
       "title": "Diamond SIlver Ring",
       "price": 67.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1082,7 +1186,8 @@ const products = [
       "image": eight11,
       "title": "Black Stones Necklace",
       "price": 31.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1090,7 +1195,8 @@ const products = [
       "image": nine11,
       "title": "Indian Pearl Earrings",
       "price": 84.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1098,7 +1204,8 @@ const products = [
       "image": ten11,
       "title": "Indian Copper Earrings",
       "price": 90.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1106,7 +1213,8 @@ const products = [
       "image": one12,
       "title": "Indian Pearl Square Stone Necklace      ",
       "price": 69.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1114,7 +1222,8 @@ const products = [
       "image": two12,
       "title": "Indian Pearl Thread Earring      ",
       "price": 224.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1122,7 +1231,8 @@ const products = [
       "image": three12,
       "title": "Heavy 20kt Gold Necklace",
       "price": 150.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1130,7 +1240,8 @@ const products = [
       "image": four12,
       "title": "Indian 8kt Gold Bracelet",
       "price": 19.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1138,7 +1249,8 @@ const products = [
       "image": five12,
       "title": "Heavy 5kt Gold Earrings",
       "price": 174.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1146,7 +1258,8 @@ const products = [
       "image": six12,
       "title": "Blue Stone Locket",
       "price": 116.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1154,7 +1267,8 @@ const products = [
       "image": seven12,
       "title": "Black Stone Modern Locket",
       "price": 207.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1162,7 +1276,8 @@ const products = [
       "image": eight12,
       "title": "Diamond Wedding Rings",
       "price": 75.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1170,7 +1285,8 @@ const products = [
       "image": nine12,
       "title": "Indian 6kt Gold Earrings      ",
       "price": 6.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 6,
@@ -1178,7 +1294,8 @@ const products = [
       "image": ten12,
       "title": "Custom Made Threads Beads NEcklace set",
       "price": 45.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1186,7 +1303,8 @@ const products = [
       "image": one13,
       "title": "Heavy Stone Colorful Necklace",
       "price": 94.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1194,7 +1312,8 @@ const products = [
       "image": two13,
       "title": "Beads and Threads Simple Earrings",
       "price": 225.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1202,7 +1321,8 @@ const products = [
       "image": three13,
       "title": "Tamil Wedding Necklace Set",
       "price": 147.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1210,7 +1330,8 @@ const products = [
       "image": four13,
       "title": "Shahi 21kt Gold Necklace Set",
       "price": 177.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1218,7 +1339,8 @@ const products = [
       "image": five13,
       "title": "Feathers and Beads Bohemian",
       "price": 58.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1226,7 +1348,8 @@ const products = [
       "image": six13,
       "title": "Red Peacock Tail Earrings",
       "price": 139.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1234,7 +1357,8 @@ const products = [
       "image": six13,
       "title": "Red Peacock Tail Earrings Pro",
       "price": 139.00,
-      "star": 5
+      "star": 5,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1242,7 +1366,8 @@ const products = [
       "image": seven13,
       "title": "heavy 13kt Gold Wedding Neck",
       "price": 12.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "accessories"]
     },
     {
       "userId": 7,
@@ -1250,7 +1375,8 @@ const products = [
       "image": eight13,
       "title": "Yike Red",
       "price": 24.00,
-      "star": 2
+      "star": 2,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1258,7 +1384,8 @@ const products = [
       "image": nine13,
       "title": "North Star Cream",
       "price": 154.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1266,7 +1393,8 @@ const products = [
       "image": ten13,
       "title": "Puma Black",
       "price": 133.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1274,7 +1402,8 @@ const products = [
       "image": one14,
       "title": "Yike Fluffy Yellow",
       "price": 196.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1282,7 +1411,8 @@ const products = [
       "image": two14,
       "title": "Adidas Green",
       "price": 86.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1290,7 +1420,8 @@ const products = [
       "image": three14,
       "title": "Adidas White",
       "price": 31.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1298,7 +1429,8 @@ const products = [
       "image": four14,
       "title": "flow white",
       "price": 34.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1306,7 +1438,8 @@ const products = [
       "image": five14,
       "title": "Yike Air White",
       "price": 166.00,
-      "star": 2
+      "star": 2,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1314,7 +1447,8 @@ const products = [
       "image": six14,
       "title": "Adidas Green",
       "price": 86.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1322,7 +1456,8 @@ const products = [
       "image": seven14,
       "title": "Adidas White",
       "price": 31.00,
-      "star": 1
+      "star": 1,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1330,7 +1465,8 @@ const products = [
       "image": eight14,
       "title": "flow white",
       "price": 34.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 7,
@@ -1338,7 +1474,8 @@ const products = [
       "image": nine14,
       "title": "Yike Air White",
       "price": 22.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1346,7 +1483,8 @@ const products = [
       "image": ten14,
       "title": "Yike Air White",
       "price": 6.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1354,7 +1492,8 @@ const products = [
       "image": one15,
       "title": "Yike Pink",
       "price": 214.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1362,7 +1501,8 @@ const products = [
       "image": two15,
       "title": "Yike Mint",
       "price": 89.00,
-      "star": 4
+      "star": 4,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1370,7 +1510,8 @@ const products = [
       "image": three15,
       "title": "Yike Silver",
       "price": 124.00,
-      "star": 1
+      "star": 1,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1378,7 +1519,8 @@ const products = [
       "image": four15,
       "title": "North Star Olive",
       "price": 200.00,
-      "star": 2
+      "star": 2,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1386,7 +1528,8 @@ const products = [
       "image": five15,
       "title": "Adidas Rainbow",
       "price": 149.00,
-      "star": 0
+      "star": 0,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1394,7 +1537,8 @@ const products = [
       "image": six15,
       "title": "Yike Yellow black",
       "price": 171.00,
-      "star": 2
+      "star": 2,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1402,7 +1546,8 @@ const products = [
       "image": seven15,
       "title": "Merrell Woods",
       "price": 171.00,
-      "star": 0
+      "star": 0,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1410,7 +1555,8 @@ const products = [
       "image": eight15,
       "title": "Yike Black Red",
       "price": 80.00,
-      "star": 0
+      "star": 0,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1418,7 +1564,8 @@ const products = [
       "image": nine15,
       "title": "North Star Blue",
       "price": 80.00,
-      "star": 1
+      "star": 1,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1426,7 +1573,8 @@ const products = [
       "image": ten15,
       "title": "Yike Silver Race",
       "price": 224.00,
-      "star": 3
+      "star": 3,
+      "category": ["men", "sports", "clothes"]
     },
     {
       "userId": 8,
@@ -1434,7 +1582,8 @@ const products = [
       "image": one16,
       "title": "Sakti Sambar Powder",
       "price": 121.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1442,7 +1591,8 @@ const products = [
       "image": two16,
       "title": "Premium Grocery Collection",
       "price": 173.00,
-      "star": 1
+      "star": 1,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1450,7 +1600,8 @@ const products = [
       "image": three16,
       "title": "Premium Grocery Pack",
       "price": 203.00,
-      "star": 3
+      "star": 3,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1458,7 +1609,8 @@ const products = [
       "image": four16,
       "title": "Fresh&Real CHole Masala ",
       "price": 87.00,
-      "star": 0
+      "star": 0,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1466,7 +1618,8 @@ const products = [
       "image": five16,
       "title": "Gum Pack",
       "price": 7.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1474,7 +1627,8 @@ const products = [
       "image": six16,
       "title": "Indian Grocery Products Pack",
       "price": 218.00,
-      "star": 1
+      "star": 1,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1482,7 +1636,8 @@ const products = [
       "image": seven16,
       "title": "Saffola Gold Oil",
       "price": 117.00,
-      "star": 3
+      "star": 3,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1490,7 +1645,8 @@ const products = [
       "image": eight16,
       "title": "Colgate Advance Protection To",
       "price": 87.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 8,
@@ -1498,7 +1654,8 @@ const products = [
       "image": nine16,
       "title": "Catch Sprinklers Chat Masala",
       "price": 97.00,
-      "star": 0
+      "star": 0,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1506,7 +1663,8 @@ const products = [
       "image": ten16,
       "title": "Catch Italian Seasoning Grinder",
       "price": 30.00,
-      "star": 3
+      "star": 3,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1514,7 +1672,8 @@ const products = [
       "image": one17,
       "title": "Tadka Garam Masala",
       "price": 109.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1522,7 +1681,8 @@ const products = [
       "image": two17,
       "title": "Thanks a Latte Coffee",
       "price": 69.00,
-      "star": 1
+      "star": 1,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1530,7 +1690,8 @@ const products = [
       "image": three17,
       "title": "Grocery Package Offer",
       "price": 246.00,
-      "star": 1
+      "star": 1,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1538,7 +1699,8 @@ const products = [
       "image": four17,
       "title": "ACI Products",
       "price": 210.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1546,7 +1708,8 @@ const products = [
       "image": five17,
       "title": "LIghtskin Soap",
       "price": 80.00,
-      "star": 2
+      "star": 2,
+      "category": ["women"]
     },
     {
       "userId": 9,
@@ -1554,7 +1717,8 @@ const products = [
       "image": six17,
       "title": "Artidoro Rodriguez Coffee",
       "price": 183.00,
-      "star": 1
+      "star": 1,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1562,7 +1726,8 @@ const products = [
       "image": seven17,
       "title": "Dove Sensitive Skin Soap",
       "price": 178.00,
-      "star": 3
+      "star": 3,
+      "category": ["women"]
     },
     {
       "userId": 9,
@@ -1570,7 +1735,8 @@ const products = [
       "image": eight17,
       "title": "Aniket Garam Masala",
       "price": 182.00,
-      "star": 0
+      "star": 0,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1578,7 +1744,8 @@ const products = [
       "image": nine17,
       "title": "Portsmouth Soap",
       "price": 104.00,
-      "star": 0
+      "star": 0,
+      "category": ["women"]
     },
     {
       "userId": 9,
@@ -1586,7 +1753,8 @@ const products = [
       "image": ten17,
       "title": "Premium Kitchen Pack",
       "price": 107.00,
-      "star": 0
+      "star": 0,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1594,7 +1762,8 @@ const products = [
       "image": one18,
       "title": "Mega Ssardines",
       "price": 18.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1602,7 +1771,8 @@ const products = [
       "image": two18,
       "title": "Organic Company Products",
       "price": 53.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1610,7 +1780,8 @@ const products = [
       "image": three18,
       "title": "Earnest Sardines",
       "price": 74.00,
-      "star": 1
+      "star": 1,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1618,7 +1789,8 @@ const products = [
       "image": four18,
       "title": "Parachute Coconut Oil",
       "price": 137.00,
-      "star": 4
+      "star": 4,
+      "category": ["women"]
     },
     {
       "userId": 9,
@@ -1626,7 +1798,8 @@ const products = [
       "image": five18,
       "title": "Cafe Torrefaction Fraiche",
       "price": 74.00,
-      "star": 3
+      "star": 3,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1634,7 +1807,8 @@ const products = [
       "image": six18,
       "title": "Madina Soaps",
       "price": 111.00,
-      "star": 2
+      "star": 2,
+      "category": ["women"]
     },
     {
       "userId": 9,
@@ -1642,7 +1816,8 @@ const products = [
       "image": seven18,
       "title": "Sardines Pack",
       "price": 60.00,
-      "star": 2
+      "star": 2,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1650,7 +1825,8 @@ const products = [
       "image": eight18,
       "title": "Turmeric Powder",
       "price": 128.00,
-      "star": 1
+      "star": 1,
+      "category": ["kitchen"]
     },
     {
       "userId": 9,
@@ -1658,7 +1834,8 @@ const products = [
       "image": nine18,
       "title": "Biossance Oil",
       "price": 99.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1666,7 +1843,8 @@ const products = [
       "image": ten18,
       "title": "Amorpacific Products",
       "price": 219.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1674,7 +1852,8 @@ const products = [
       "image": one19,
       "title": "Covergirl Vitalist",
       "price": 189.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1682,7 +1861,8 @@ const products = [
       "image": two19,
       "title": "Dr.Alka's Hair Shine",
       "price": 54.00,
-      "star": 1
+      "star": 1,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1690,7 +1870,8 @@ const products = [
       "image": three19,
       "title": "Huda Beauty Nailpolish",
       "price": 104.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1698,7 +1879,8 @@ const products = [
       "image": four19,
       "title": "Skin Glow Oil",
       "price": 249.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1706,7 +1888,8 @@ const products = [
       "image": five19,
       "title": "Venus Makeup Product",
       "price": 163.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1714,7 +1897,8 @@ const products = [
       "image": six19,
       "title": "Volition Products",
       "price": 189.00,
-      "star": 1
+      "star": 1,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1722,7 +1906,8 @@ const products = [
       "image": seven19,
       "title": "Aniise Cream",
       "price": 228.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1730,7 +1915,8 @@ const products = [
       "image": eight19,
       "title": "Mykirei Hand Wash",
       "price": 167.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1738,7 +1924,8 @@ const products = [
       "image": nine19,
       "title": "Rahua Classic Conditioner",
       "price": 242.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1746,7 +1933,8 @@ const products = [
       "image": ten19,
       "title": "Beauty Society anti acne Mask",
       "price": 20.00,
-      "star": 1
+      "star": 1,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1754,7 +1942,8 @@ const products = [
       "image": one20,
       "title": "Mistral Lipstick",
       "price": 4.00,
-      "star": 1
+      "star": 1,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1762,7 +1951,8 @@ const products = [
       "image": two20,
       "title": "Kylie Skin Face Wash",
       "price": 65.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1770,7 +1960,8 @@ const products = [
       "image": three20,
       "title": "Amala Products",
       "price": 3.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1778,7 +1969,8 @@ const products = [
       "image": four20,
       "title": "Caudalie Hand and Nail Cream",
       "price": 114.00,
-      "star": 2
+      "star": 2,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1786,7 +1978,8 @@ const products = [
       "image": five20,
       "title": "Alkemie Glow Up",
       "price": 108.00,
-      "star": 1
+      "star": 1,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1794,7 +1987,8 @@ const products = [
       "image": six20,
       "title": "Shiseido Products ",
       "price": 227.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1802,7 +1996,8 @@ const products = [
       "image": seven20,
       "title": "Premium Lipstick",
       "price": 106.00,
-      "star": 3
+      "star": 3,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1810,7 +2005,8 @@ const products = [
       "image": eight20,
       "title": "Blemish Elixir",
       "price": 51.00,
-      "star": 0
+      "star": 0,
+      "category": ["women", "cosmetics"]
     },
     {
       "userId": 10,
@@ -1819,6 +2015,7 @@ const products = [
       "title": "Red Serum and Cream",
       "price": 48.00,
       "star": 0,
+      "category": ["women", "cosmetics"]
     }
 ]
 

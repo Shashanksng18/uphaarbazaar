@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
+import icons from "../utils/helpers/icons";
 
 const AppContext = createContext();
 
@@ -9,6 +10,11 @@ export const AppProvider = ({children}) => {
     const [currentProductDetail, setCurrentProductDetail] = useState({});
     const [detailOverlay, setDetailOverlay] = useState(false);
     const [showCart, setShowCart] = useState(false);
+    const [getProductSize, setGetProductSize] = useState(0);
+    const [currentCategory, setCurrentCategory] =useState("men");
+    const [flushProduct,  setFlushProduct] = useState();
+    const [inputCategory, setInputCategory] = useState(icons);
+    
     const handleCurrentPage = (page) => {
         setCurrentPage(page)
     }
@@ -39,6 +45,14 @@ export const AppProvider = ({children}) => {
              detailOverlay,
              cartToggleHandler,
              showCart,
+             setGetProductSize,
+             getProductSize,
+             currentCategory,
+             setCurrentCategory,
+             flushProduct,
+             setFlushProduct,
+             inputCategory,
+             setInputCategory
         }}
         >
             {children}
