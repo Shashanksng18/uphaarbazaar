@@ -48,9 +48,7 @@ const Products = () => {
        setIsLoading(false);
       }
 
-      setTimeout(() => {
-        setFlushProduct(false);
-      },1000)
+      
       fetchProducts();
     }, [currentPage, currentCategory]);
 
@@ -62,6 +60,12 @@ const Products = () => {
     const addToCartHandler = (product) => {
        dispatch(cartAction.addToCart(product))
     }
+    
+    useEffect(() => {
+      setTimeout(() => {
+        setFlushProduct(false);
+      },1000)
+    })
 
     // const colorRef = useRef(null);
 
