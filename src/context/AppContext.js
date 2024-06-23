@@ -14,7 +14,8 @@ export const AppProvider = ({children}) => {
     const [currentCategory, setCurrentCategory] =useState("men");
     const [flushProduct,  setFlushProduct] = useState();
     const [inputCategory, setInputCategory] = useState(icons);
-    
+    const [activeIcon, setActiveIcon] = useState(0);
+
     const handleCurrentPage = (page) => {
         setCurrentPage(page)
     }
@@ -52,7 +53,9 @@ export const AppProvider = ({children}) => {
              flushProduct,
              setFlushProduct,
              inputCategory,
-             setInputCategory
+             setInputCategory,
+             activeIcon,
+             setActiveIcon
         }}
         >
             {children}

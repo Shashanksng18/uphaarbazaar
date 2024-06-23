@@ -10,23 +10,15 @@ import { useGlobalContext } from "../../context/AppContext";
 import { useSelector } from "react-redux";
 import icons from "../../utils/helpers/icons";
 import SuggestionList from "../SuggestionList/SuggestionLIst";
-const categories = [
-    "all",
-    "men",
-    "photos",
-    "electronics",
-    "baby",
-    "kitchen",
-    "women",
-    "sport"
-]
+const categories = icons.map((item) => item.title)
+
 const BottomNavbar = () => {
     const [toggleCategory, setToggleCategory] = useState(false);
     const [show, setShow] = useState(false);
     const inputRef = useRef('');
     // const [currentCategory, setCurrentCategory] = useState("All Category");
 
-    const {currentCategory, setCurrentCategory, inputCategory, setInputCategory} = useGlobalContext();
+    const {currentCategory, setCurrentCategory, inputCategory, setInputCategory, setActiveIcon, setFlushProduct} = useGlobalContext();
     const [search, setIsSearch] = useState(false);
 
     const {cartToggleHandler} = useGlobalContext();
@@ -74,8 +66,8 @@ const BottomNavbar = () => {
                             <span className={style.select} >{currentCategory}</span>
                             <BsChevronDown size={14}/>
                             {toggleCategory && <div className={style.option}>
-                            {categories.map((category) => (
-                                <li onClick={()=>setCurrentCategory(category)}>
+                            {categories.map((category, index) => (
+                                <li onClick={()=>{setCurrentCategory(category); setActiveIcon(index); setFlushProduct(true)}} style={{cursor: "pointer"}}>
                                     {category}
                                 </li>
                             ))}
