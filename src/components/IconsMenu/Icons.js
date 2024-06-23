@@ -6,13 +6,15 @@ import { useGlobalContext } from "../../context/AppContext";
 
 const Icons = () => {
 
-    const [activeIcon, setActiveIcon] = useState(0);
+    // const [activeIcon, setActiveIcon] = useState(0);
     const [iconsUphaar, setIconsUphaar] = useState([]);
 
-    const {setCurrentCategory, setFlushProduct} = useGlobalContext();
+    const {setCurrentCategory, setFlushProduct, activeIcon, setActiveIcon} = useGlobalContext();
     useLayoutEffect(() => {
          setIconsUphaar(icons);
     }, [])
+
+    
     return(
            <ul className={style.icons}>
              {iconsUphaar.map((icon, index) => (
