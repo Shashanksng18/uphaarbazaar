@@ -3,7 +3,7 @@ import { useGlobalContext } from "../../context/AppContext";
 import style from "./SuggestionList.module.css";
 import icons from "../../utils/helpers/icons";
 
-const SuggestionList = ({selectHandler}) => {
+const SuggestionList = ({selectHandler, searchTerm}) => {
 
     const {inputCategory, setInputCategory, setCurrentCategory, setActiveIcon, setFlushProduct} = useGlobalContext();
 
@@ -17,7 +17,7 @@ const SuggestionList = ({selectHandler}) => {
 
     return(
         <ul className={style['suggestion-list']}>
-            {inputCategory.map((item, index) => (
+            {inputCategory.filter((item) => item.title.includes(searchTerm)).map((item, index) => (
                 <li onClick={()=>{setCurrentCategory(item.title); selectHandler(item.title); activeIconHandler(item)}}>{item.title}</li>
             ))}
         </ul>
