@@ -9,12 +9,13 @@ import {BsChevronDown} from "react-icons/bs";
 import { useGlobalContext } from "../../context/AppContext";
 import { useSelector } from "react-redux";
 import icons from "../../utils/helpers/icons";
-import SuggestionList from "../SuggestionList/SuggestionLIst";
+import SuggestionList from "../SuggestionList/SuggestionList";
 const categories = icons.map((item) => item.title)
 
 const BottomNavbar = () => {
     const [toggleCategory, setToggleCategory] = useState(false);
     const [show, setShow] = useState(false);
+    const [searchTerm ,setSearchTerm] = useState("");
     const inputRef = useRef('');
     // const [currentCategory, setCurrentCategory] = useState("All Category");
 
@@ -28,17 +29,9 @@ const BottomNavbar = () => {
         setToggleCategory(!toggleCategory);
     }
 
-    const suggestionCategory = () => {
-        const value = inputRef.current.value.toLowerCase();
-        if(!value) {
-            setInputCategory(icons);
-            setShow(false);
-        }
-        else {
-            setShow(true)
-            setInputCategory((prev) => prev.filter((item) => item.title.includes(value)))
-        }
-        
+    const suggestionCategory = (e) => {
+        setSearchTerm(e.target.value)
+        setShow(true)
     }
 
     const selectHandler = (title) => {
@@ -58,8 +51,8 @@ const BottomNavbar = () => {
                     {/* style={search ? {display: "inline-flex"}: {display: "none"}} */}
                 <form  className={`${style.sform} ${search ? `${style.form}`: `${style.formvisible}`}`}>
                         <div className={style['search-form']}>
-                            <input type="search" placeholder="searching for..." className={style.search} ref={inputRef} onChange={suggestionCategory}/>
-                            {show && <SuggestionList selectHandler={selectHandler}/>}
+                            <input type="search" placeholder="searching for..." className={style.search} ref={inputRef} onChange={(e) => suggestionCategory(e)}/>
+                            {searchTerm && <SuggestionList selectHandler={selectHandler} searchTerm={searchTerm}/>}
                             {/* <RxCross1 className={style.close} onClick={() => setIsSearch(false)}/> */}
                         </div>
                         <div className={style.category} onClick={handleToggle}>

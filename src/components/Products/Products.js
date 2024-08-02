@@ -3,13 +3,14 @@ import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
 import products from "../../utils/helpers/products";
 import {AiOutlinePlus,AiFillStar, AiOutlineStar} from "react-icons/ai";
 import style from "./Product.module.css";
-import Card from "../Card/Card";
+// import Card from "../Card/Card";
 import {AiFillEye, AiOutlineHeart} from "react-icons/ai";
 import { useGlobalContext } from "../../context/AppContext";
 import CardSkeleton from "../CardSkeleton/CardSkeleton";
 import { useDispatch } from "react-redux";
 import { cartAction } from "../../store/createCart";
 
+const Card = React.lazy(() => import("../Card/Card"))
 
 const Products = () => {
     const dispatch = useDispatch();
