@@ -15,11 +15,15 @@ const SuggestionList = ({selectHandler, searchTerm}) => {
         setFlushProduct(true);
     }
 
+    const filtereSearchList = inputCategory.filter((item) => item.title.includes(searchTerm.toLowerCase()))
+
     return(
         <ul className={style['suggestion-list']}>
-            {inputCategory.filter((item) => item.title.includes(searchTerm)).map((item, index) => (
+            {filtereSearchList.length > 0 && filtereSearchList.map((item, index) => (
                 <li onClick={()=>{setCurrentCategory(item.title); selectHandler(item.title); activeIconHandler(item)}}>{item.title}</li>
             ))}
+
+            {filtereSearchList.length === 0 && <p>no result found...</p>}
         </ul>
     )
 }
