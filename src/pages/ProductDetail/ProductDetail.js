@@ -7,11 +7,16 @@ import {AiFillEye, AiFillStar, AiOutlineHeart, AiOutlineStar} from "react-icons/
 import style from "./ProductDetail.module.css";
 import Wrapper from "../../components/Wrapper/Wrapper";
 import ProductDescription from "../../components/ProductDescription/ProductDescription";
+import { useDispatch } from "react-redux";
+import { cartAction } from "../../store/createCart";
+import Cart from "../../components/Cart/Cart";
 const ProductDetail = () => {
     const detailProduct = useLoaderData();
     const [activeOption, setActiveOption] = useState(0);
     const [activeType, setActiveType] = useState(0);
     const [activeImage, setActiveImage] = useState(0);
+
+    const dispatch = useDispatch();
     
     const optionColorHandler = (optionValue) => {
         setActiveOption(optionValue);
@@ -22,8 +27,13 @@ const ProductDetail = () => {
     useEffect(() => {
         window.scrollTo(0,0)
     }, [])
+
+    const addProductHandler = (detailProduct) => {
+        dispatch(cartAction.addToCart(detailProduct));
+    }
     return(
         <Wrapper>
+        <Cart/>
          <div className={style['product-detail']}>
            <div className={style['left']}>
            <picture>
@@ -60,13 +70,13 @@ const ProductDetail = () => {
                <h2>${detailProduct[0].price}</h2>
                <p>stock available</p>
            </div>
-           <button className={style.btn}>add to cart</button>
+           <button className={style.btn} onClick={() => addProductHandler(detailProduct[0])}>add to cart</button>
            <p className={style.sold}>sold by: uphaar bazaar</p>
        </div>
        </div>
         <div className={style['product-images']}>
             {Array(3).fill(0).map((item, index) => (
-                 <picture onClick={()=>setActiveImage(index)} style={index === activeImage ?{border: '1px solid #D23F57'}: {}}>
+                 <picture onClick={()=>setActiveImage(index)} style={index === activeImage ?{border: '1px solid #D23F57'}: {}} key={index+2}>
                     <img src={detailProduct[0].image} alt="product_image"/>
                  </picture>
             ))}
@@ -81,9 +91,7 @@ export default ProductDetail;
 export const loader = async ({request, params}) => {
     const {id} = params;
     const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`);
-    console.log(response);
     let data = await response.json();
-    console.log(data.id)
     
     const product = [];
     for(let i=0; i<products.length;i++){

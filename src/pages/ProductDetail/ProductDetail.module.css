@@ -71,6 +71,7 @@ ul li{
     outline: none;
     color: #FFF;
     text-transform: capitalize;
+    cursor: pointer;
 }
 .product-detail .sold{
     padding: 1rem 0;

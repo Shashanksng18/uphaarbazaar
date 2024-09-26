@@ -19,7 +19,6 @@ const createCart = createSlice({
         addToCart(state, action){
             const ritem = action.payload;
             state.change = true;
-            console.log(ritem.price)
 
             const existingItem = state.cartItem?.find((item) => item.pId === ritem.pId);
             const newItem = {
@@ -45,11 +44,8 @@ const createCart = createSlice({
         removeFromCart(state, action){
            const ritem = action.payload;
            state.change = true;
-           console.log("RRR", ritem)
            
            const existingItem = state.cartItem.find((item) => item.pId === ritem.pId);
-           console.log("EXIS", existingItem)
-
            if(existingItem.quantity === 1){
               state.cartItem = state.cartItem.filter((item) => item.pId !== ritem.pId);
               state.totalAmount -= existingItem.price;

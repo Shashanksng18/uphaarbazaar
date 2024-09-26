@@ -6,7 +6,7 @@ export const fetchCartDetails = () => {
     return async (dispatch) => {
 
         const fetchDetails = async () => {
-            const response = await fetch("https://react-now-722bc-default-rtdb.firebaseio.com/cartsItem/cart.json");
+            const response = await fetch("https://uphaar-react-default-rtdb.firebaseio.com/cartsItem/cart.json");
 
             if(!response.ok){
                 throw new Error("Error in fetching the data...");
@@ -38,7 +38,7 @@ export const sendCartDetails = (cart) => {
             message: "processing your request..."
         }))
         const sendRequest = async () => {
-             const response = await fetch("https://react-now-722bc-default-rtdb.firebaseio.com/cartsItem/cart.json",{
+             const response = await fetch("https://uphaar-react-default-rtdb.firebaseio.com/cartsItem/cart.json",{
                 method: "PUT",
                 body: JSON.stringify({
                     cartItem: cart.cartItem ,
@@ -46,7 +46,6 @@ export const sendCartDetails = (cart) => {
                     totalQuantity: cart.totalQuantity,
                 })
              });
-             console.log(response)
              if(!response.ok){
                  throw new Error("Response Error");
              }
@@ -59,7 +58,6 @@ export const sendCartDetails = (cart) => {
                 title: "success",
                 message: "Sending request successfully...",
             }))
-            console.log("SENDING")
         }catch(err){
             console.log("Error in sending the request...");
             dispatch(uiAction.showNotification({

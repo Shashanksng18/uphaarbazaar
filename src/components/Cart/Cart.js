@@ -17,12 +17,12 @@ const Cart = () => {
         <section className={style["cart-overlay"]}>
           <div className={style.cart}>
             <article>
-              <button class={style.bag}>
+              <button className={style.bag}>
                 <BsBagDash size={20} />
                 <span>{quantity}</span>
               </button>
               <button className={style.close} onClick={cartToggleHandler}>
-                <RxCross1 />
+                <RxCross1 className={style.cross}/>
               </button>
             </article>
 

@@ -42,9 +42,10 @@ const CartDetail = () => {
                </div>
             ))}
             </>
+            {cartProduct.length > 0 &&
             <div className={style.total}>
                <h2>total : </h2><span>${totalAmount}</span>
-            </div>
+            </div>}
       </div>
     )
 }

@@ -43,3 +43,6 @@
 .cart button span{
     font-size: 18px;
 }
+.cross{
+    cursor: pointer;
+}
